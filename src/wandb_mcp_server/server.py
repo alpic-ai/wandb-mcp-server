@@ -14,9 +14,9 @@ import asyncio
 import signal
 import atexit
 
-import wandb
 from dotenv import load_dotenv
 from mcp.server.fastmcp import FastMCP
+import wandb
 
 from wandb_mcp_server.mcp_tools.list_wandb_entities_projects import (
     LIST_ENTITY_PROJECTS_TOOL_DESCRIPTION,
